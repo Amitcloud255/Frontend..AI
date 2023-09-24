@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Story Prompt Generator</title>
+</head>
+<body style="background-color: bisque;">
+    <header>
+        <h1>Story Prompt Generator</h1>
+    </header>
+    <main>
+        <section class="form-section">
+            <h2>Provide a Story Prompt</h2>
+            <form id="story-form">
+                <textarea id="story-prompt" placeholder="Enter your story prompt here..." required></textarea>
+                <button type="submit">Generate Story</button>
+            </form>
+        </section>
+        <section class="story-section">
+            <h2>Generated Story</h2>
+            <div id="generated-story">
+            </div>
+            <div class="actions">
+                <button id="save-story">Save</button>
+                <button id="share-story">Share</button>
+                <button id="Read-story">Read</button>
+            </div>
+        </section>
+    </main>
+    <aside class="leaderboard">
+        <h2>Top-Voted Stories</h2>
+        <ol id="story-leaderboard">
+        </ol>
+    </aside>
+    <script src="script.js"></script>
+</body>
+</html>
